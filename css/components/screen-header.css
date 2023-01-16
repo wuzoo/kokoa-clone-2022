@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: var(--horizontal-space);
+    margin-bottom: 10px;
 }
 .screen-header__title{
     font-size: 32px;
@@ -10,4 +11,26 @@
 }
 .screen-header__icons span{
     margin-left: 25px;
+}
+.screen-header__icons span:last-child{
+    position: relative;
+}
+.cog-position{
+    position: absolute;
+    right: -70px;
+    bottom: 25px;
+}
+@keyframes headerSpinAnimation{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: rotateZ(360deg);
+    }
+    100%{
+        transform: none;
+    }
+}
+.screen-header__icons i:hover{
+    animation: headerSpinAnimation 2s linear;
 }

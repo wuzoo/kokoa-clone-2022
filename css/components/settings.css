@@ -1,0 +1,25 @@
+.settings-list{
+    display: flex;
+    flex-direction: column;
+}
+.settings-list__members{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    font-size: 18px;
+}
+.settings-list__members i{
+    margin-right: 20px;
+    font-size: 22px;
+    opacity: 0.8;
+}
+.settings-list__members__column:last-child{
+    color: var(--main-color);
+}
+.settings-list__members:not(:last-child){
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.settings-list{
+    padding-bottom: 25px;
+    border-bottom: var(--main-border);
+}

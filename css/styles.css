@@ -7,7 +7,18 @@
 @import "components/screen-header.css";
 @import "components/friends.css";
 @import "components/user-component.css";
+@import "components/badge.css";
+@import "components/find.css";
+@import "components/icon-row.css";
+@import "components/more.css";
+@import "components/settings.css";
+@import "components/alternative-screen-header.css";
+@import "components/chat.css";
+@import "components/nomobile.css";
 body{
     font-family: 'Open Sans', sans-serif;
     color: #2e363e;
+}
+.main-screen{
+    padding: 0px var(--horizontal-space);
 }
